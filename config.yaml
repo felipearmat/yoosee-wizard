@@ -1,7 +1,7 @@
-name: "Yosee Wizard"
-description: "Provisioning wizard — discovers Yosee cameras by LAN scan, configures Frigate go2rtc streams, TUTK PTZ, and AdGuard cloud blocking."
-version: "0.1.0"
-slug: "yosee_wizard"
+name: "Yoosee Wizard"
+description: "Provisioning wizard — discovers Yoosee cameras by LAN scan, configures Frigate go2rtc streams, TUTK PTZ, and AdGuard cloud blocking."
+version: "0.2.0"
+slug: "yoosee_wizard"
 init: false
 arch:
   - aarch64
@@ -14,7 +14,7 @@ full_access: true
 ingress: true
 ingress_port: 7789
 panel_icon: mdi:cctv
-panel_title: "Yosee Wizard"
+panel_title: "Yoosee Wizard"
 options:
   rtsp_password: ""
 schema:
